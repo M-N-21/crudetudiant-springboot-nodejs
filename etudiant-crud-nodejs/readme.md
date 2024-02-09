@@ -7,7 +7,8 @@ Ce projet est une application de gestion des étudiants avec des opérations CRU
 Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 
 - Node.js
-- MySQL Server
+- npm
+- MySQL
 
 ## Configuration de la base de données
 
