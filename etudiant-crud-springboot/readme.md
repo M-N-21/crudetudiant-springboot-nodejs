@@ -70,3 +70,18 @@ Pour lancer l'application, exécutez la commande suivante dans le répertoire ra
 `mvn spring-boot:run`
 Cela démarrera l'application Spring Boot sur le port défini un peu plus haut dans le fichier `application.yaml` qui est le `9091`.
 
+L'API expose les endpoints suivants pour les opérations CRUD :
+
+- `GET /api/etudiants` : récupérer tous les étudiants
+- `GET /api/etudiants/{id}` : récupérer un étudiant par son identifiant
+- `POST /api/etudiants` : créer un nouvel étudiant
+- `PUT /api/etudiants/{id}` : mettre à jour un étudiant existant
+- `DELETE /api/etudiants/{id}` : supprimer un étudiant existant
+
+## Contributions
+
+Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez ouvrir une issue pour discuter des changements que vous souhaitez apporter, ou soumettre une pull request directement.
+
+## Auteur
+### M.N.21
+
