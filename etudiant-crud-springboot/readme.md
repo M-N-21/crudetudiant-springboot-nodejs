@@ -18,6 +18,7 @@ Le projet suit une architecture standard de projet Spring Boot avec les composan
 - **Service** : Les services contiennent la logique métier de l'application, telle que la manipulation des données des étudiants.
 - **Repository** : Les repositories sont des interfaces qui étendent JpaRepository et gèrent les opérations de base de données pour l'entité Etudiant.
 - **Entity** : L'entité Etudiant représente la structure des données stockées en base de données.
+- **Mapper** : Les interfaces qui vont nous permettre de faire le mapping entre les entités et les dtos.
 - **DTO (Data Transfer Object)** : Les DTO sont des objets utilisés pour transférer des données entre le client et le serveur, permettant de séparer les modèles de données internes des objets exposés via l'API REST. (Bonne pratique)
 
 ## Dépendances
