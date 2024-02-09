@@ -66,11 +66,11 @@ C'est ici aussi qu'on défini que toute les routes seront précédés de `/api`
 
 L'API expose les endpoints suivants pour les opérations CRUD :
 
-- GET /api/etudiants : récupérer tous les étudiants
-- GET /api/etudiants/{id} : récupérer un étudiant par son identifiant
-- POST /api/etudiants : créer un nouvel étudiant
-- PUT /api/etudiants/{id} : mettre à jour un étudiant existant
-- DELETE /api/etudiants/{id} : supprimer un étudiant existant
+- `GET /api/etudiants` : récupérer tous les étudiants
+- `GET /api/etudiants/{id}` : récupérer un étudiant par son identifiant
+- `POST /api/etudiants` : créer un nouvel étudiant
+- `PUT /api/etudiants/{id}` : mettre à jour un étudiant existant
+- `DELETE /api/etudiants/{id}` : supprimer un étudiant existant
 
 ## Contributions
 
